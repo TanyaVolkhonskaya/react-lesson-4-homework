@@ -39,7 +39,7 @@ export const appRouter = createBrowserRouter([
                 ],
             },
             {
-                path:'users/:userID/profile',
+                path:'users/:userId/profile',
                 element: <ProfilePage/>,
                 children:[
                     {

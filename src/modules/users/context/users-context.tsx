@@ -7,5 +7,4 @@ export type UserContextType = {
     getUserById: (id: UserId) => User | null,
 }
 
-// Экспортируем константу контекста
 export const UsersContext = createContext<UserContextType | undefined>(undefined)
